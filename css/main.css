@@ -1,0 +1,192 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+
+}
+
+
+
+body{
+   
+    font-family: 'Manrope', sans-serif;
+    margin: 0;
+
+
+}
+
+.header {
+    border-bottom: 1px solid #A6A6A6;
+    height: 72px;
+    display: flex;
+    align-items: center;
+}
+
+.header-container {
+    width: 1110px;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 40px;
+}
+
+.nav {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1;
+    font-feature-settings: 'liga'off;
+    color: #18191F;
+}
+
+.nav-link{
+    color: #18191F;
+    text-decoration: none;
+    margin-right: 32px;
+}
+
+.nav-link:last-child{
+    margin-right: 0;
+}
+
+.nav-link:hover{
+    color:#8C30F5;
+}
+img{
+    display: block;
+}
+
+.appstore {
+margin-left: auto;
+display: flex;
+}
+
+.app-item{
+    margin-left: 12px;
+}
+
+.app-item:first-child{
+    margin-left: 0;
+}
+
+/* Main */
+
+
+.main {
+
+}
+
+.main-container {
+
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+   
+    align-items: center;
+
+
+    padding-top: 197px;
+    padding-bottom: 197px;
+
+      
+}
+
+.main-contant {
+ width: 540px;
+ margin-right: 62px;
+}
+
+.main-img {
+
+}
+
+.main-title {
+    font-weight: 800;
+    font-size: 72px;
+   
+    color: #18191F;
+    line-height: 1.36;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+
+.button{
+    display: inline-block;
+    background: #8C30F5;
+    border-radius: 8px;
+
+
+    padding-right: 35px;
+    padding-left: 35px;
+    text-decoration: none;
+
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+    
+
+
+.main-text{
+    margin-bottom: 32px;
+}
+
+.main-contant p{
+   font-weight: normal;
+   font-size: 18px;
+   line-height: 32px;
+   color: #18191F;
+
+}
+
+.button:hover{
+    opacity: 0.8;
+}
+
+
+
+/* footer */
+
+
+.footer {
+    display: flex;
+    height: 72px;
+    color: #D9DBE1;
+    background: #0B0D17;
+
+}
+
+.footer-container {
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+
+
+}
+
+.footer-copyright {
+ font-weight: normal;
+font-size: 14px;
+ line-height: 24px;
+
+
+}
+.footer-copyright p{
+  
+}
+
+.footer-socials {
+    display: flex;
+    margin-right: 16px;
+    
+
+
+}
+.footer-socials:last-child{
+    margin-right: 0;
+}
